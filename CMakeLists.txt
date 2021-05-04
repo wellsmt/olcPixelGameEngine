@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(game)
 
-set(CMAKE_CXX_STANDARD 14)  # for c++11
+set(CMAKE_CXX_STANDARD 14)
 
 find_package(X11 REQUIRED)
 link_libraries(${X11_LIBRARIES})
